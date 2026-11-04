@@ -1,0 +1,113 @@
+/* ------------------------------------------------------------------
+   Proyectos del portafolio de Ariana Capuñay.
+   Edita aquí los textos; el sitio se arma solo a partir de este archivo.
+------------------------------------------------------------------ */
+window.PROJECTS = [
+  {
+    id: 'bebidas',
+    title: 'Bebidas en hielo',
+    year: '2025',
+    cat: 'fotografia',
+    catLabel: 'Fotografía publicitaria',
+    subtitle: 'Fotografía publicitaria de producto',
+    tagline: 'Frescura intensa para tres latas',
+    cover: 'assets/img/bebidas-cover.jpg',
+    gallery: ['assets/img/bebidas-2.jpg', 'assets/img/bebidas-1.jpg'],
+    desc: 'Serie de imágenes vibrantes que transmiten una intensa sensación de frescura para tres bebidas en lata: Shelby Limón, Volt Ginseng Edición Limitada y Coca-Cola.',
+    problem: 'La falta de impacto visual y dinamismo que suelen tener las bebidas al fotografiarse en seco o en entornos planos.',
+    solution: 'Usé de forma estratégica una cubeta de hielo, spray de desodorante para fijar la gota y simular la condensación del frío, una fuente de luz difusa y fondos de colores contrastantes que resaltan el carácter único y la textura refrescante de cada producto.',
+    course: 'Fotografía Publicitaria · Ciclo VII · 2025',
+    tools: ['Cámara réflex', 'Iluminación de estudio', 'Photoshop', 'Lightroom'],
+    type: 'Fotografía publicitaria de producto'
+  },
+  {
+    id: 'altomayo',
+    title: 'Café Altomayo',
+    year: '2025',
+    cat: 'fotografia',
+    catLabel: 'Fotografía publicitaria',
+    subtitle: 'Fotografía de producto · Bodegón',
+    tagline: 'El origen y la calidez del café',
+    cover: 'assets/img/altomayo-cover.jpg',
+    gallery: ['assets/img/altomayo-2.jpg', 'assets/img/altomayo-1.jpg'],
+    desc: 'Imágenes para catálogo y redes sociales que comunican el origen y la calidez del Café Altomayo.',
+    problem: 'La falta de una identidad visual cálida y acogedora que transmitiera la experiencia real y artesanal del café, evitando que el empaque luciera plano o desintegrado del concepto.',
+    solution: 'Una dirección de arte cuidadosa componiendo granos de café, una taza de latte art, una cafetera, palo santo y superficies de madera, apoyados por una luz lateral suavizada e iluminación continua que equilibra los tonos cálidos sin opacar los colores característicos de la marca.',
+    course: 'Fotografía Publicitaria · Ciclo VII · 2025',
+    tools: ['Cámara réflex', 'Iluminación continua', 'Photoshop', 'Lightroom'],
+    type: 'Fotografía de producto · bodegón'
+  },
+  {
+    id: 'nescafe',
+    title: 'Nescafé Tradición',
+    year: '2025',
+    cat: 'fotografia',
+    catLabel: 'Fotografía publicitaria',
+    subtitle: 'Fotografía de producto · Concepto “fogata”',
+    tagline: 'Un concepto creativo sobre fondo negro',
+    cover: 'assets/img/nescafe-cover.jpg',
+    gallery: ['assets/img/nescafe-2.jpg', 'assets/img/nescafe-1.jpg'],
+    desc: 'Sesión de fotografía de producto construida alrededor de un concepto creativo de fogata, con fondo negro e iluminación de estudio.',
+    problem: 'Lograr que un producto de consumo masivo transmitiera una experiencia sensorial y no solo la presentación del envase.',
+    solution: 'Trabajé con fondo negro, iluminación de estudio dirigida y una puesta en escena de leños, malvaviscos y vapor que construye la atmósfera de fogata alrededor del producto.',
+    course: 'Fotografía Publicitaria · Ciclo VII · 2025',
+    tools: ['Cámara réflex', 'Fondo negro', 'Iluminación de estudio', 'Photoshop'],
+    type: 'Fotografía de producto · concepto creativo'
+  },
+  {
+    id: 'condominio',
+    title: 'Condominio residencial',
+    year: '2025',
+    cat: 'tridimensional',
+    catLabel: 'Diseño tridimensional',
+    subtitle: 'Diseño tridimensional · Modelado 3D',
+    tagline: 'Un complejo habitacional completo en 3D',
+    cover: 'assets/img/condominio-cover.jpg',
+    gallery: ['assets/img/condominio-2.jpg', 'assets/img/condominio-1.jpg'],
+    desc: 'Modelado de un condominio residencial completo que integra edificios, áreas verdes, estacionamiento, piscina, losa deportiva y caseta de vigilancia.',
+    problem: 'La falta de una representación integral y funcional que permitiera visualizar un complejo habitacional completo sin saturar el rendimiento técnico del archivo.',
+    solution: 'Desarrollé de forma individual el modelado de estructuras y mobiliario en Autodesk 3ds Max, trabajando por zonas y optimizando recursos mediante la reutilización estratégica de elementos como faroles, bancas y balcones, para mantener un archivo ligero sin perder calidad visual en los renders finales.',
+    course: 'Diseño Tridimensional · Ciclo VII · 2025',
+    tools: ['Autodesk 3ds Max', 'Materiales', 'Cámaras', 'Render'],
+    type: 'Modelado 3D · espacio arquitectónico'
+  },
+  {
+    id: 'heyfit',
+    title: 'Hey Fit Soda',
+    year: '2026',
+    cat: 'infografia',
+    catLabel: 'Infografía y publicidad',
+    subtitle: 'Infografía publicitaria · Visualización de datos',
+    tagline: 'Una noticia convertida en pieza persuasiva',
+    cover: 'assets/img/heyfit-cover.jpg',
+    gallery: ['assets/img/heyfit-2.jpg', 'assets/img/heyfit-1.jpg'],
+    desc: 'Convertir una noticia sobre el lanzamiento de Hey Fit en una pieza persuasiva que posiciona la bebida como una alternativa saludable a las gaseosas tradicionales.',
+    problem: 'La falta de claridad y el desorden que genera condensar una gran cantidad de datos técnicos en un formato vertical sin abrumar visualmente al usuario.',
+    solution: 'Sinteticé la información con una retícula de tres columnas, un recorrido de lectura en “Z”, iconografía y un gráfico de vitaminas, además de colocar la lata sobre una base circular como punto focal para comunicar sus beneficios nutricionales de forma ágil, clara y atractiva.',
+    course: 'Infografía Publicitaria · Ciclo VIII · 2026',
+    tools: ['Adobe Illustrator', 'Adobe Photoshop', 'Canva'],
+    type: 'Infografía publicitaria · visualización de datos'
+  },
+  {
+    id: 'ar',
+    title: '08 AR',
+    year: '2026',
+    cat: 'identidad',
+    catLabel: 'Identidad gráfica',
+    subtitle: 'Mi marca personal',
+    tagline: 'Paleta, tipografía y aplicaciones',
+    cover: 'assets/img/ar-cover.jpg',
+    gallery: ['assets/img/ar-1.jpg', 'assets/img/ar-2.jpg', 'assets/img/ar-3.jpg'],
+    desc: 'Sistema de identidad gráfica para mi marca personal como diseñadora y fotógrafa: monograma “ar”, paleta corporativa, tipografía y aplicaciones.',
+    problem: 'Reunir mi trabajo bajo una sola voz visual, reconocible tanto en piezas impresas como en redes sociales.',
+    solution: 'Construí el monograma a partir de la a y la r en una tipografía display de contrastes marcados, definí una paleta de azules de tres niveles y la apliqué a merchandising —tote, taza, libreta, botella, polo, fotocheck— y a las plantillas de perfil y feed.',
+    course: 'Proyecto personal · 2026',
+    tools: ['Adobe Illustrator', 'Adobe Photoshop'],
+    type: 'Identidad gráfica · marca personal',
+    palette: [
+      { hex: '#0C3846', name: 'Azul petróleo oscuro' },
+      { hex: '#297488', name: 'Azul turquesa oscuro' },
+      { hex: '#24578A', name: 'Azul clásico' }
+    ]
+  }
+];
